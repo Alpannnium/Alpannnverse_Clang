@@ -1,0 +1,13 @@
+clang-13 filter=lfs diff=lfs merge=lfs -text
+opt filter=lfs diff=lfs merge=lfs -text
+clang-linker-wrapper filter=lfs diff=lfs merge=lfs -text
+clang-repl filter=lfs diff=lfs merge=lfs -text
+llc filter=lfs diff=lfs merge=lfs -text
+llvm-lto2 filter=lfs diff=lfs merge=lfs -text
+llvm-lto filter=lfs diff=lfs merge=lfs -text
+libLTO.so filter=lfs diff=lfs merge=lfs -text
+bugpoint filter=lfs diff=lfs merge=lfs -text
+clang-scan-deps filter=lfs diff=lfs merge=lfs -text
+lld filter=lfs diff=lfs merge=lfs -text
+libclang.so.13.0.1 filter=lfs diff=lfs merge=lfs -text
+libclang-cpp.so.13 filter=lfs diff=lfs merge=lfs -text
